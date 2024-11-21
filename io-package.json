@@ -1,0 +1,155 @@
+{
+  "common": {
+    "name": "refoss",
+    "version": "0.0.1",
+    "news": {
+      "0.0.1": {
+        "en": "initial release",
+        "de": "Erstveröffentlichung",
+        "ru": "Начальная версия",
+        "pt": "lançamento inicial",
+        "nl": "Eerste uitgave",
+        "fr": "Première version",
+        "it": "Versione iniziale",
+        "es": "Versión inicial",
+        "pl": "Pierwsze wydanie",
+        "uk": "Початкова версія",
+        "zh-cn": "首次出版"
+      }
+    },
+    "titleLang": {
+      "en": "Refoss",
+      "de": "Refoss",
+      "ru": "Refoss",
+      "pt": "Refoss",
+      "nl": "Refoss",
+      "fr": "Refoss",
+      "it": "Refoss",
+      "es": "Refoss",
+      "pl": "Refoss",
+      "uk": "Refoss",
+      "zh-cn": "Refoss"
+    },
+    "desc": {
+      "en": "Integrate Refoss devices",
+      "de": "Integrieren Sie Refoss-Geräte",
+      "ru": "Интегрировать устройства Refoss",
+      "pt": "Integrar dispositivos Refoss",
+      "nl": "Integreer Refoss-apparaten",
+      "fr": "Intégrer les appareils Refoss",
+      "it": "Integrare i dispositivi Refoss",
+      "es": "Integrar dispositivos Refoss",
+      "pl": "Zintegruj urządzenia Refoss",
+      "uk": "Інтегрувати пристрої Refoss",
+      "zh-cn": "集成Reforss设备"
+    },
+    "authors": [
+      "zhaochuanling <zhaochuanling8@gmail.com>"
+    ],
+    "keywords": [
+      "refoss"
+    ],
+    "licenseInformation": {
+      "type": "free",
+      "license": "MIT"
+    },
+    "platform": "Javascript/Node.js",
+    "icon": "refoss.png",
+    "enabled": true,
+    "extIcon": "https://bucket-meross-static.meross.com/meross/production/staticfile/image/2024/11/12/reofss/refoss.png",
+    "readme": "https://github.com/iobroker-community-adapters/ioBroker.refoss/blob/master/README.md",
+    "loglevel": "info",
+    "tier": 3,
+    "mode": "daemon",
+    "type": "general",
+    "connectionType": "local",
+    "dataSource": "push",
+    "compact": true,
+    "adminUI": {
+      "config": "json"
+    },
+    "supportCustoms": true,
+    "dependencies": [
+      {
+        "js-controller": ">=6.0.11"
+      }
+    ],
+    "globalDependencies": [
+      {
+        "admin": "7.0.23"
+      }
+    ]
+  },
+  "native": {
+    "port": 9989
+  },
+  "objects": [],
+  "instanceObjects": [
+    {
+      "_id": "",
+      "type": "meta",
+      "common": {
+        "name": {
+          "en": "Meta storage for user files",
+          "de": "Meta-Speicher für Benutzerdateien",
+          "ru": "Meta Storage для файлов пользователей",
+          "pt": "Meta de armazenamento para arquivos de usuário",
+          "nl": "Meta opslag voor gebruikersbestanden",
+          "fr": "Stockage Meta pour les fichiers utilisateur",
+          "it": "Meta storage per i file utente",
+          "es": "Meta almacenamiento para archivos de usuario",
+          "pl": "Meta storage for user files",
+          "uk": "Зберігання мета для файлів користувачів",
+          "zh-cn": "用户档案的储存"
+        },
+        "type": "meta.user"
+      },
+      "native": {}
+    },
+    {
+      "_id": "info",
+      "type": "channel",
+      "common": {
+        "name": {
+          "en": "Information",
+          "de": "Information",
+          "ru": "Информация",
+          "pt": "Em formação",
+          "nl": "Informatie",
+          "fr": "Informations",
+          "it": "Informazione",
+          "es": "Información",
+          "pl": "Informacja",
+          "uk": "Інформація",
+          "zh-cn": "信息"
+        }
+      },
+      "native": {}
+    },
+    {
+      "_id": "info.connection",
+      "type": "state",
+      "common": {
+        "name": {
+          "en": "Devices connected",
+          "de": "Geräte verbunden",
+          "ru": "Приборы подключены",
+          "pt": "Dispositivos conectados",
+          "nl": "Vertaling:",
+          "fr": "Appareils connectés",
+          "it": "Dispositivi connessi",
+          "es": "Dispositivos conectados",
+          "pl": "Device połączone",
+          "uk": "Пристрої підключені",
+          "zh-cn": "连接状态"
+        },
+        "type": "boolean",
+        "role": "indicator.connected",
+        "read": true,
+        "write": false,
+        "def": false
+      },
+      "native": {}
+    }
+  ]
+}
