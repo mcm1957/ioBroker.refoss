@@ -1,10 +1,12 @@
 'use strict';
 
 const utils = require('@iobroker/adapter-core');
+const objectHelper = require('@apollon/iobroker-tools').objectHelper;
+const BaseClient = require('./lib/protocol/udp4').BaseClient;
+const BaseServer = require('./lib/protocol/udp4').BaseServer;
 const adapterName = require('./package.json').name.split('.').pop();
 
 class Refoss extends utils.Adapter {
-
   /**
    * @param {Partial<utils.AdapterOptions>} [options={}]
    */
@@ -14,6 +16,8 @@ class Refoss extends utils.Adapter {
       // @ts-ignore
       name: adapterName,
     });
+    this.baseClient = null;
+    this.baseServer = null;
     this.on('ready', this.onReady.bind(this));
     this.on('stateChange', this.onStateChange.bind(this));
     // this.on('objectChange', this.onObjectChange.bind(this));
@@ -21,31 +25,18 @@ class Refoss extends utils.Adapter {
     this.on('unload', this.onUnload.bind(this));
   }
   async onReady() {
-    await this.setObjectNotExistsAsync('testVariable', {
-      type: 'state',
-      common: {
-        name: 'testVariable',
-        type: 'boolean',
-        role: 'indicator',
-        read: true,
-        write: true,
-      },
-      native: {},
-    });
+    try {
+      await this.mkdirAsync(this.namespace, 'scripts');
+      this.subscribeForeignFiles(this.namespace, '*');
+      this.subscribeStates('*');
+      objectHelper.init(this);
 
-    this.subscribeStates('testVariable');
-
-    await this.setStateAsync('testVariable', true);
-
-    await this.setStateAsync('testVariable', { val: true, ack: true });
-
-    await this.setStateAsync('testVariable', { val: true, ack: true, expire: 30 });
-
-    let result = await this.checkPasswordAsync('admin', 'iobroker');
-    this.log.info('check user admin pw iobroker: ' + result);
-
-    result = await this.checkGroupAsync('admin', 'admin');
-    this.log.info('check group user admin group admin: ' + result);
+      // create UDP broadcast
+      this.clientServer = new BaseClient(this)
+      this.server = new BaseServer(this, objectHelper)
+    } catch (error) {
+      
+    }
   }
 
   /**
