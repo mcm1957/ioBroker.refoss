@@ -62,7 +62,9 @@ class Refoss extends utils.Adapter {
 
     this.initOnlineStatus();
     try {
-
+      if (this.server) {
+        this.server.destroy()
+      }
       callback();
     } catch (e) {
       callback();
@@ -126,7 +128,7 @@ class Refoss extends utils.Adapter {
     this.onlineCheckTimeout = this.setTimeout(() => {
       this.onlineCheckTimeout = null;
       this.onlineStatusCheck();
-    }, 60 * 1000); // Restart online check in 60 seconds
+    }, 15 * 1000); // Restart online check in 15 seconds
   }
   async deviceStatusUpdate(deviceId, status) {
     if (this.isUnloaded) return;
