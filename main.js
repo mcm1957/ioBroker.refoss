@@ -41,9 +41,11 @@ class Refoss extends utils.Adapter {
 
       await this.onlineStatusCheck();
 
-      // Create UDP broadcast
-      this.clientServer = new BaseClient(this)
-      this.server = new BaseServer(this, objectHelper)
+      this.setTimeout(() => {
+        // Create UDP broadcast
+        this.clientServer = new BaseClient(this)
+        this.server = new BaseServer(this, objectHelper)
+      }, 100)
     } catch (error) {
 
     }
