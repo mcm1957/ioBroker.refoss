@@ -1,6 +1,6 @@
 {
   "name": "iobroker.refoss",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Integrate your Shelly devices",
   "author": {
     "name": "zhaochuanling",
@@ -18,7 +18,7 @@
     "ioBroker",
     "Smart Home",
     "Home Automation",
-    "refoss"
+    "Refoss"
   ],
   "repository": {
     "type": "git",
