@@ -44,6 +44,7 @@
       "zh-cn": "集成Reforss设备"
     },
     "authors": [
+      "Bluefox <dogafox@gmail.com>",
       "zhaochuanling <zhaochuanling8@gmail.com>"
     ],
     "keywords": [
@@ -69,7 +70,6 @@
     "adminUI": {
       "config": "none"
     },
-    "supportCustoms": true,
     "dependencies": [
       {
         "js-controller": ">=6.0.11"
