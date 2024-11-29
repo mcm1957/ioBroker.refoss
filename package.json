@@ -1,6 +1,6 @@
 {
   "name": "iobroker.refoss",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Integrate your Shelly devices",
   "author": {
     "name": "zhaochuanling",

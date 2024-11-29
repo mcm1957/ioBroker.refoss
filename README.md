@@ -6,7 +6,6 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/Refoss/ioBroker.refoss?logo=github&style=flat-square)
 ![Number of Installations](https://iobroker.live/badges/refoss-installed.svg)
 ![Current version in stable repository](https://iobroker.live/badges/refoss-stable.svg)
-![Installed](http://iobroker.live/badges/refoss-installed.svg)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.refoss.svg)](https://www.npmjs.com/package/iobroker.refoss)
 
 Integrate Refoss devices into ioBroker.
@@ -37,6 +36,7 @@ You can find more and detailed information about the device here: [Refoss](https
 
 MIT License
 
+Copyright (c) 2024 Bluefox dogafox@gmail.com
 Copyright (c) 2024 zhaochuanling
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
