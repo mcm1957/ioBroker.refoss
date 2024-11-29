@@ -6,14 +6,17 @@
     "name": "zhaochuanling",
     "email": "zhaochuanling8@gmail.com"
   },
-  "homepage": "https://github.com/iobroker-community-adapters/ioBroker.refoss",
+  "homepage": "https://github.com/Refoss/ioBroker.refoss",
   "license": "MIT",
   "keywords": [
+    "ioBroker",
+    "Smart Home",
+    "Home Automation",
     "refoss"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iobroker-community-adapters/ioBroker.refoss.git"
+    "url": "git+https://github.com/Refoss/ioBroker.refoss.git"
   },
   "engines": {
     "node": ">= 20"
@@ -68,7 +71,7 @@
     "release": "release-script"
   },
   "bugs": {
-    "url": "https://github.com/iobroker-community-adapters/ioBroker.refoss/issues"
+    "url": "https://github.com/Refoss/ioBroker.refoss/issues"
   },
   "readmeFilename": "README.md"
 }

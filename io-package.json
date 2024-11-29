@@ -57,7 +57,7 @@
     "icon": "refoss.png",
     "enabled": true,
     "extIcon": "https://bucket-meross-static.meross.com/meross/production/staticfile/image/2024/11/12/reofss/refoss.png",
-    "readme": "https://github.com/iobroker-community-adapters/ioBroker.refoss/blob/master/README.md",
+    "readme": "https://github.com/Refoss/ioBroker.refoss/blob/master/README.md",
     "loglevel": "info",
     "tier": 3,
     "mode": "daemon",
@@ -65,6 +65,7 @@
     "connectionType": "local",
     "dataSource": "push",
     "compact": true,
+    "noConfig": true,
     "adminUI": {
       "config": "none"
     },

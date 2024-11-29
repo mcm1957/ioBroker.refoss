@@ -3,19 +3,41 @@
 # ioBroker.refoss
 
 [![NPM version](https://img.shields.io/npm/v/iobroker.refoss.svg)](https://www.npmjs.com/package/iobroker.refoss)
-[![Downloads](https://img.shields.io/npm/dm/iobroker.refoss.svg)](https://www.npmjs.com/package/iobroker.refoss)
+![GitHub repo size](https://img.shields.io/github/repo-size/Refoss/ioBroker.refoss?logo=github&style=flat-square)
 ![Number of Installations](https://iobroker.live/badges/refoss-installed.svg)
 ![Current version in stable repository](https://iobroker.live/badges/refoss-stable.svg)
+![Installed](http://iobroker.live/badges/refoss-installed.svg)
+[![Downloads](https://img.shields.io/npm/dm/iobroker.refoss.svg)](https://www.npmjs.com/package/iobroker.refoss)
 
-[![NPM](https://nodei.co/npm/iobroker.refoss.png?downloads=true)](https://nodei.co/npm/iobroker.refoss/)
+Integrate Refoss devices into ioBroker.
+You can find more and detailed information about the device here: [Refoss](https://refoss.net/)
+
+## Prerequisites
+
+- The device needs to be connected to the local network first. There are two ways to connect devices to the local network:
+  - Using the Refoss app (download and install the Refoss app on Google Play) to connect devices to the local network.
+  - Using the Web page to connect devices to the local network.
+    - The computer/mobile phone is connected to the device factory Wi-Fi.
+    - In the browser, access the address 10.10.10.1, then select the local Wi-Fi needed for device configuration.
+- The integration will occupy port: 9989.
+
+## Supported device models
+
+| Model                             | Version   |
+| --------------------------------- | --------- |
+| Refoss Smart Energy Monitor, EM06 | >= v2.3.8 |
 
 ## Changelog
+
+### 0.0.1 (2024-11-28)
+
+- (zhaochuanling) first release
 
 ## License
 
 MIT License
 
-Copyright (c) 2024 Author <author@mail.com>
+Copyright (c) 2024 zhaochuanling
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
