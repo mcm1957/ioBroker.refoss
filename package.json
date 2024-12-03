@@ -1,6 +1,6 @@
 {
   "name": "iobroker.refoss",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "Integrate your Shelly devices",
   "author": {
     "name": "zhaochuanling",
@@ -10,6 +10,10 @@
     {
       "name": "Bluefox",
       "email": "dogafox@gmail.com"
+    },
+    {
+      "name": "Refoss",
+      "email": "support@refoss.net"
     }
   ],
   "homepage": "https://github.com/Refoss/ioBroker.refoss",

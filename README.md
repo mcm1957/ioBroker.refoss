@@ -9,7 +9,7 @@
 [![Downloads](https://img.shields.io/npm/dm/iobroker.refoss.svg)](https://www.npmjs.com/package/iobroker.refoss)
 
 Integrate Refoss devices into ioBroker.
-You can find more and detailed information about the device here: [Refoss](https://refoss.net/)
+You can find more and detailed information about the device here: [Refoss](https://www.amazon.de/dp/B0D3PY4RVZ)
 
 ## Prerequisites
 
@@ -36,8 +36,7 @@ You can find more and detailed information about the device here: [Refoss](https
 
 MIT License
 
-Copyright (c) 2024 Bluefox dogafox@gmail.com
-Copyright (c) 2024 zhaochuanling
+Copyright (c) 2024 Bluefox dogafox@gmail.com and Refoss support@refoss.net
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
