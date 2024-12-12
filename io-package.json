@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "refoss",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "news": {
+      "0.1.2": {
+        "en": "initial review",
+        "de": "Erste Überprüfung",
+        "ru": "первоначальный обзор",
+        "pt": "Revisão inicial",
+        "nl": "Eerste beoordeling",
+        "fr": "Examen initial",
+        "it": "Versione iniziale",
+        "es": "Versión inicial",
+        "pl": "Wstępna ocena",
+        "uk": "попередній огляд",
+        "zh-cn": "首次提审"
+      },
       "0.0.1": {
         "en": "initial release",
         "de": "Erstveröffentlichung",
