@@ -28,7 +28,7 @@ You can find more and detailed information about the device here: [Refoss](https
 
 ## Changelog
 
-### 0.1.2 (2024-12-12)
+### 0.1.3 (2024-12-12)
 
 - (zhaochuanling) first review
 
