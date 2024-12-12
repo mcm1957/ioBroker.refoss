@@ -28,6 +28,10 @@ You can find more and detailed information about the device here: [Refoss](https
 
 ## Changelog
 
+### 0.1.1 (2024-12-12)
+
+- (zhaochuanling) first review
+
 ### 0.0.1 (2024-11-28)
 
 - (zhaochuanling) first release
