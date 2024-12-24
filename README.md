@@ -5,7 +5,6 @@
 [![NPM version](https://img.shields.io/npm/v/iobroker.refoss.svg)](https://www.npmjs.com/package/iobroker.refoss)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Refoss/ioBroker.refoss?logo=github&style=flat-square)
 ![Number of Installations](https://iobroker.live/badges/refoss-installed.svg)
-![Current version in stable repository](https://iobroker.live/badges/refoss-stable.svg)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.refoss.svg)](https://www.npmjs.com/package/iobroker.refoss)
 
 Integrate Refoss devices into ioBroker.

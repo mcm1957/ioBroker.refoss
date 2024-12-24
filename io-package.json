@@ -1,9 +1,9 @@
 {
   "common": {
     "name": "refoss",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "news": {
-      "0.1.3": {
+      "0.1.4": {
         "en": "initial review",
         "de": "Erste Überprüfung",
         "ru": "первоначальный обзор",
@@ -80,7 +80,6 @@
     "connectionType": "local",
     "dataSource": "push",
     "compact": true,
-    "noConfig": true,
     "adminUI": {
       "config": "none"
     },
