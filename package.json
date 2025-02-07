@@ -1,16 +1,12 @@
 {
   "name": "iobroker.refoss",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Integrate your Refoss devices",
   "author": {
     "name": "zhaochuanling",
     "email": "zhaochuanling8@gmail.com"
   },
   "contributors": [
-    {
-      "name": "Bluefox",
-      "email": "dogafox@gmail.com"
-    },
     {
       "name": "Refoss",
       "email": "support@refoss.net"

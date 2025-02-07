@@ -27,6 +27,10 @@ You can find more and detailed information about the device here: [Refoss](https
 
 ## Changelog
 
+### 0.1.6 (2025-02-07)
+
+- (zhaochuanling) revise the feedback content
+
 ### 0.1.5 (2024-12-24)
 
 - (zhaochuanling) fix detected errors

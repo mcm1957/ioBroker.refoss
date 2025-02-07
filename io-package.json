@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "refoss",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "news": {
+      "0.1.6": {
+        "en": "Revise the feedback content",
+        "de": "Den Feedback-Inhalt überarbeiten",
+        "ru": "Отредактировать содержимое обратной связи",
+        "pt": "Revisar o conteúdo do feedback",
+        "nl": "Het feedbackinhoud aanpassen",
+        "fr": "Réviser le contenu du feedback",
+        "it": "Revisione del contenuto del feedback",
+        "es": "Revisar el contenido del feedback",
+        "pl": "Przeanalizuj i zmodyfikuj treść opinii zwrotnej",
+        "uk": "Переглянути та виправити вміст зворотного зв'язку",
+        "zh-cn": "修改反馈内容"
+      },
       "0.1.5": {
         "en": "initial review",
         "de": "Erste Überprüfung",
@@ -57,7 +70,6 @@
       "zh-cn": "集成Reforss设备"
     },
     "authors": [
-      "Bluefox <dogafox@gmail.com>",
       "zhaochuanling <zhaochuanling8@gmail.com>",
       "Refoss <support@refoss.net>"
     ],
@@ -94,9 +106,7 @@
       }
     ]
   },
-  "native": {
-    "port": 9989
-  },
+  "native": {},
   "objects": [],
   "instanceObjects": [
     {
