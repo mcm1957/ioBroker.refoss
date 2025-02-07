@@ -1,9 +1,9 @@
 {
   "common": {
     "name": "refoss",
-    "version": "0.1.6",
+    "version": "0.1.7",
     "news": {
-      "0.1.6": {
+      "0.1.7": {
         "en": "Revise the feedback content",
         "de": "Den Feedback-Inhalt überarbeiten",
         "ru": "Отредактировать содержимое обратной связи",
