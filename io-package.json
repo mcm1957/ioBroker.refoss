@@ -95,6 +95,7 @@
     "adminUI": {
       "config": "none"
     },
+    "singletonHost": true,
     "dependencies": [
       {
         "js-controller": ">=6.0.11"
