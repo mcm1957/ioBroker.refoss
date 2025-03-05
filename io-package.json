@@ -1,9 +1,9 @@
 {
   "common": {
     "name": "refoss",
-    "version": "0.1.9",
+    "version": "0.1.10",
     "news": {
-      "0.1.9": {
+      "0.1.10": {
         "en": "Revise the feedback content",
         "de": "Den Feedback-Inhalt überarbeiten",
         "ru": "Отредактировать содержимое обратной связи",
@@ -99,11 +99,6 @@
     "dependencies": [
       {
         "js-controller": ">=6.0.11"
-      }
-    ],
-    "globalDependencies": [
-      {
-        "admin": ">=7.4.10"
       }
     ]
   },
