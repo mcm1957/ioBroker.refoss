@@ -63,6 +63,9 @@ class Refoss extends utils.Adapter {
 
         this.initOnlineStatus();
         try {
+            if (this.clientServer) {
+                this.clientServer.destroy();
+            }
             if (this.server) {
                 this.server.destroy();
             }

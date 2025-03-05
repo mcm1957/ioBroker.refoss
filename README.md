@@ -27,7 +27,7 @@ You can find more and detailed information about the device here: [Refoss](https
 
 ## Changelog
 
-### 0.1.8 (2025-02-27)
+### 0.1.9 (2025-03-05)
 
 - (zhaochuanling) revise the feedback content
 
@@ -51,7 +51,9 @@ You can find more and detailed information about the device here: [Refoss](https
 
 MIT License
 
-Copyright (c) 2024 Bluefox dogafox@gmail.com and Refoss support@refoss.net
+Copyright (c) 2025 zhaochuanling zhaochuanling8@gmail.com,
+Bluefox dogafox@gmail.com and 
+Refoss support@refoss.net
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
